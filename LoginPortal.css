@@ -1,0 +1,108 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+
+body{
+    background-color: #9e8282;
+}
+
+#container{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 4px;
+    width: 300px;
+    height: 300px;
+    margin: 200px 600px;
+}
+
+h2{
+    margin: 92px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.username, .password{
+    width: 200px;
+    height: 25px;
+    margin: auto auto;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-color: #c80105;
+    border-radius: 7px;
+}
+
+.username:hover, .password:hover{
+    width: 205px;
+    height: 26px;
+    margin-left: 24px;
+
+}
+
+.Forgotpassword{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+
+.login{
+    width: 200px;
+    background-color: #3897f0;
+    border: 1px solid ;
+    padding: 5px 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5dvi;
+}
+
+.login:hover{
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover{
+    font-weight: bold;
+    color:red;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+}
+
+.separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+}
+
+.GmailLogin{
+    font-weight: 700;
+    color: rgb(14, 14, 245);
+    margin-left: 86px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.GmailLogin:hover{
+    color: red;
+    margin-left: 86px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.signup{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 40px;
+}
